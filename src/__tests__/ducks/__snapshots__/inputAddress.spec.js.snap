@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inputAddress Duck Tests Action Generator clearAddress should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/CLEAR_ADDRESS",
+}
+`;
+
+exports[`inputAddress Duck Tests Action Generator setAddress should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_ADDRESS",
+  "value": "mockValue",
+}
+`;

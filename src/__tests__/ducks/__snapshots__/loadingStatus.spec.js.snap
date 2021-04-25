@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadingStatus Duck Tests Action Generator setLoadingError should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_LOADING_ERROR",
+}
+`;
+
+exports[`loadingStatus Duck Tests Action Generator setLoadingInProgress should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_LOADING_IN_PROGRESS",
+}
+`;
+
+exports[`loadingStatus Duck Tests Action Generator setLoadingSuccess should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_LOADING_SUCCESS",
+}
+`;

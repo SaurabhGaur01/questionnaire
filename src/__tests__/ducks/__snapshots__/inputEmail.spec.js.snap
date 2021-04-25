@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inputEmail Duck Tests Action Generator clearEmail should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/CLEAR_EMAIL",
+}
+`;
+
+exports[`inputEmail Duck Tests Action Generator setEmail should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_EMAIL",
+  "value": "mockValue",
+}
+`;

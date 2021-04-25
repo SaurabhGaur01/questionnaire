@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Questionnaire Component should render correctly 1`] = `
+<Fragment>
+  <Connect(AppStepper)
+    steps={
+      Array [
+        "Step-1",
+        "Step-2",
+        "Step-3",
+        "Step-4",
+        "Step-5",
+      ]
+    }
+  />
+  <div
+    className="row"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="col-md-4"
+      />
+      <div
+        className="col-md-6"
+      >
+        <Connect(GetStepContent) />
+        <Connect(ActionBar)
+          handleComplete={[Function]}
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`Questionnaire Component should render correctly when all steps completed 1`] = `
+<Fragment>
+  <Connect(AppStepper)
+    steps={
+      Array [
+        "Step-1",
+        "Step-2",
+        "Step-3",
+        "Step-4",
+        "Step-5",
+      ]
+    }
+  />
+  <Connect(Result)
+    allStepsCompleted={[Function]}
+  />
+</Fragment>
+`;

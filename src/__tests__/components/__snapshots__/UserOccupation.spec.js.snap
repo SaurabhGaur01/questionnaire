@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserOccupation Component should render correctly 1`] = `
+<div
+  className="card card-container"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      What's your Occupation ?
+    </h5>
+    <div
+      className="form-check"
+    >
+      <input
+        checked={false}
+        className="form-check-input"
+        id="occupation-id"
+        name="occupation"
+        onChange={[Function]}
+        type="radio"
+        value="EMPLOYED"
+      />
+      <label
+        className="form-check-label"
+      >
+        Employed
+      </label>
+    </div>
+    <div
+      className="form-check"
+    >
+      <input
+        checked={false}
+        className="form-check-input"
+        name="occupation"
+        onChange={[Function]}
+        type="radio"
+        value="STUDENT"
+      />
+      <label
+        className="form-check-label"
+      >
+        Student
+      </label>
+    </div>
+    <div
+      className="form-check"
+    >
+      <input
+        checked={false}
+        className="form-check-input"
+        name="occupation"
+        onChange={[Function]}
+        type="radio"
+        value="SELF_EMPLOYED"
+      />
+      <label
+        className="form-check-label"
+      >
+        Self-employed
+      </label>
+    </div>
+  </div>
+</div>
+`;

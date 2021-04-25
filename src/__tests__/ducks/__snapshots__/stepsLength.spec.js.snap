@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stepsLength Duck Tests Action Generator setStepsLength should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_STEPS_LENGTH",
+}
+`;

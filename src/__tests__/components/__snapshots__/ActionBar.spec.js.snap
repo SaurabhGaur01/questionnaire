@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionBar Component should render correctly 1`] = `
+<div
+  className="action-buttons"
+>
+  <button
+    className="btn btn-secondary"
+    disabled={false}
+    id="back-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Back
+  </button>
+  <button
+    className="btn btn-primary"
+    id="complete-button"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    Next
+  </button>
+</div>
+`;
+
+exports[`ActionBar Component should show finish button when completed steps length equal to steps length 1`] = `
+<div
+  className="action-buttons"
+>
+  <button
+    className="btn btn-secondary"
+    disabled={false}
+    id="back-button"
+    onClick={[Function]}
+    type="button"
+  >
+    Back
+  </button>
+  <button
+    className="btn btn-primary"
+    id="complete-button"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    Finish
+  </button>
+</div>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserChildren Component should render correctly 1`] = `
+<div
+  className="card card-container"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+       What's your email ?
+    </h5>
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control"
+        id="UserEmail-required"
+        onChange={[Function]}
+        placeholder="User Email"
+        type="email"
+        value="mockEmail"
+      />
+    </div>
+  </div>
+</div>
+`;

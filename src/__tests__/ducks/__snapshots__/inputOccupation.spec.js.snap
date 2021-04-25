@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inputOccupation Duck Tests Action Generator clearOccupation should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/CLEAR_OCCUPATION",
+}
+`;
+
+exports[`inputOccupation Duck Tests Action Generator setOccupation should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_OCCUPATION",
+  "value": "mockValue",
+}
+`;

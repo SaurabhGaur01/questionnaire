@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`activeStep Duck Tests Action Generator setActiveStep should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_ACTIVE_STEP",
+  "value": 1,
+}
+`;

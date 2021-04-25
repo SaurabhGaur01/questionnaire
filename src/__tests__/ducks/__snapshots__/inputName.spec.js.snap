@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inputName Duck Tests Action Generator clearName should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/CLEAR_NAME",
+}
+`;
+
+exports[`inputName Duck Tests Action Generator setName should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_NAME",
+  "value": "mockValue",
+}
+`;

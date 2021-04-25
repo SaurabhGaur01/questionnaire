@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inputChildren Duck Tests Action Generator clearChildren should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/CLEAR_CHILDREN",
+}
+`;
+
+exports[`inputChildren Duck Tests Action Generator setChildren should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/SET_CHILDREN",
+  "value": 1,
+}
+`;

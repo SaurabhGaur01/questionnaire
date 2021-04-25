@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hasChildren Duck Tests Action Generator setChildrenNotPresent should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/DONT_HAVE_CHILDREN",
+}
+`;
+
+exports[`hasChildren Duck Tests Action Generator setChildrenPresent should match the snapshot 1`] = `
+Object {
+  "type": "modules/questionnaire-app/HAVE_CHILDREN",
+  "value": "mockValue",
+}
+`;

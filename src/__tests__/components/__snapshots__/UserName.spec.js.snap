@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserName Component should render correctly 1`] = `
+<div
+  className="card card-container"
+>
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+       What's your First Name ?
+    </h5>
+    <div
+      className="form-group"
+    >
+      <input
+        className="form-control"
+        id="userName-required"
+        onChange={[Function]}
+        placeholder="User Name"
+        type="text"
+        value="mockFirstName"
+      />
+    </div>
+  </div>
+</div>
+`;

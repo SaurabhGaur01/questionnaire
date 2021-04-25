@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppStepper Component should render correctly 1`] = `
+<WithStyles(ForwardRef(Stepper))
+  activeStep={2}
+  nonLinear={true}
+>
+  <WithStyles(ForwardRef(Step))
+    key="step-1"
+  >
+    <WithStyles(ForwardRef(StepButton))
+      id="step-button"
+      onClick={[Function]}
+    >
+      step-1
+    </WithStyles(ForwardRef(StepButton))>
+  </WithStyles(ForwardRef(Step))>
+  <WithStyles(ForwardRef(Step))
+    key="step-2"
+  >
+    <WithStyles(ForwardRef(StepButton))
+      id="step-button"
+      onClick={[Function]}
+    >
+      step-2
+    </WithStyles(ForwardRef(StepButton))>
+  </WithStyles(ForwardRef(Step))>
+  <WithStyles(ForwardRef(Step))
+    key="step-3"
+  >
+    <WithStyles(ForwardRef(StepButton))
+      id="step-button"
+      onClick={[Function]}
+    >
+      step-3
+    </WithStyles(ForwardRef(StepButton))>
+  </WithStyles(ForwardRef(Step))>
+</WithStyles(ForwardRef(Stepper))>
+`;
