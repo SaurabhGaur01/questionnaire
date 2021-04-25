@@ -3,22 +3,20 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { LOADING_ERROR, LOADING_IN_PROGRESS } from '../constants/steps';
-import handleReset from '../thunks/handleReset'; 
+import ResetAction from './ResetAction';
 
 const Result = ({ 
     searchResults,
     loadingStatus,
-    actionHandleReset,
 }) => {
-    const handleReset = () => {
-        actionHandleReset();
-    };
-
     if(loadingStatus === LOADING_ERROR) {
         return (
-            <div className="alert alert-danger" role="alert">
-                There is an error, Please try again after sometime
-            </div>
+            <React.Fragment>
+                <div className="alert alert-danger" role="alert">
+                    There is an error, Please try again after sometime
+                </div>
+                <ResetAction />
+            </React.Fragment>
         )
     }
 
@@ -56,22 +54,12 @@ const Result = ({
                 </div>    
             </div>
         
-            <div className="action-buttons">
-                <button 
-                    id ="reset-button" 
-                    type="button" 
-                    className="btn btn-primary"
-                    onClick={handleReset}
-                >
-                    Reset
-                </button>
-            </div>         
+            <ResetAction />       
         </React.Fragment> 
     );
 }    
 
 Result.propTypes = {
-    actionHandleReset: PropTypes.func.isRequired,
     searchResults: PropTypes.arrayOf(PropTypes.shape({
         type: PropTypes.string.isRequired,
         price: PropTypes.shape({
@@ -87,12 +75,8 @@ export const mapStateToProps = state => ({
     loadingStatus: state.loadingStatus,
 });
 
-const mapDispatchAsProps = {
-    actionHandleReset: handleReset,
-}
-
 const hocChain = compose(
-    connect(mapStateToProps, mapDispatchAsProps),
+    connect(mapStateToProps),
 );
 
 export { Result as TestableResult };

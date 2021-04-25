@@ -8,7 +8,6 @@ describe('Result Component', () => {
 
     beforeEach(() =>{
         props = {
-            actionHandleReset: jest.fn(),
             loadingStatus: LOADING_SUCCESS,
             searchResults: [{
                 type: 'mockType',
@@ -35,12 +34,6 @@ describe('Result Component', () => {
         props.loadingStatus = LOADING_ERROR;
         const renderedModule = shallow(<TestableResult {...props} />);
         expect(renderedModule).toMatchSnapshot();
-    });
-
-    it('should call actionHandleReset when RESET button is clicked', () => {
-        const renderedModule = shallow(<TestableResult {...props} />);
-        renderedModule.find('#reset-button').at(0).simulate('click');
-        expect(props.actionHandleReset).toHaveBeenCalledTimes(1);
     });
 
     describe('mapStateToProps', () => {
